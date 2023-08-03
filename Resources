@@ -1,0 +1,29 @@
+Resources used for the project:
+
+1. Raspberry Pi (any version) The interface for the Smart Alarm Clock is a single-board computer called the Raspberry Pi, which is about the size of a credit card. To automate the alarm clock functions, it executes the Python script and communicates with a number of hardware elements.
+
+2. RPi.GPIO Library A Python package called "RPi.GPIO" gives users access to Raspberry Pi's GPIO (General Purpose Input/Output) pins. It is used in this project to manage the coffee maker and LED lamps by controlling the relay modules.
+
+3. 'Requests' Library: Python library 'requests' is used to send HTTP requests. To get the most recent weather data for the user's location, it communicates with the OpenWeatherMap API.
+
+4.OpenWeatherMap API:  Based on geographic coordinates, the OpenWeatherMap external weather API offers access to diverse weather data, including temperature, weather conditions, dawn and sunset times, and more. This API is used by the Smart Alarm Clock to adapt the wake-up experience to the weather.
+
+5.5. Python Game Library: The 'pygame' library is a Python library that is mostly used for game creation but is also frequently used for multimedia applications. 'pygame' is used in this project to playback audio, enabling the script to play the chosen alarm sound at the designated time.
+
+6. LED light bulbs In the Smart Alarm Clock project, the light source is an LED bulb. They are linked to one of the relay modules, which is in turn managed by a GPIO pin on the Raspberry Pi. The users can gradually awaken with the aid of LED lighting, which can mimic natural daylight.
+
+7. Coffee Machine: A coffee maker is a piece of electrical equipment used to make coffee. It's linked to another relay module, allowing the Raspberry Pi to automate its operation and switch it on at the set coffee brewing time.
+
+8. Alarm Sound Files: These are audio files in various formats (for example, MP3) that are used as alarm sounds. Based on the current weather conditions, the script chooses an alarm sound. A happy sound, for example, may be played on a sunny day, while a calming sound could be played on a dreary day.
+
+9. Relay Modules: Relay modules are electronic devices that utilize low-voltage signals from Raspberry Pi's GPIO ports to control high-voltage devices such as LED bulbs and coffee makers. They function as switches, allowing the linked devices to be turned on and off.
+
+10. Internet Access: The Raspberry Pi requires an internet connection to contact the OpenWeatherMap API and retrieve current weather data. It enables the Smart Alarm Clock to modify the alarm sound and LED light dynamically based on real-time weather conditions.
+
+11. Text Editor or Integrated Development Environment (IDE): A text editor or Integrated Development Environment (IDE) is used to write, edit, and save the main Python script that operates the Smart Alarm Clock. VSCode, Sublime Text, PyCharm, and others are popular Python text editors and IDEs.
+
+12. Terminal or Command Line: On the Raspberry Pi, the main Python script is executed via the terminal or command line. It provides a command-line interface for running the script and observing the behavior of the Smart Alarm Clock.
+
+13. SSH (Secure Shell): SSH is a network protocol that enables secure remote access to a computer over an untrusted network. It allows users to remotely access the Raspberry Pi's command-line interface from another device, making remote management of the Smart Alarm Clock possible.
+
+These resources work together to create a fully functional Smart Alarm Clock project that automatically customizes the wake-up experience based on real-time weather data, plays selected alarm sounds, manages LED light management, and automates the coffee maker. 
