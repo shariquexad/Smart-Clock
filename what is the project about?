@@ -1,0 +1,17 @@
+The script for the Smart alarm clock and cofee maker is as follows:
+
+The Python automation project known as the "smart alarm clock + cofee maker script" aims to automate the creation of a dynamic and personalized alarm clock experience based on current weather information. The Raspberry Pi used for this project serves as the main control panel. The script downloads weather information from an online weather API, modifies the alarm type based on the temperature and weather conditions, plays a pre-selected alarm sound, turns on a light, and starts a coffee maker at the chosen time.
+
+**Features:**
+
+1. Integration of the weather To obtain current weather information for the user's location, the script interfaces with an external weather API, such as OpenWeatherMap. It retrieves data on the temperature, dawn and sunset times, and meteorological conditions (such as sunny, cloudy, or rainy).
+
+2. Customized Alarms: The script dynamically chooses an appropriate alert type to match the weather and temperature based on the meteorological data. For instance, it might select a jovial sound on a sunny day, a somber sound on a foggy day, or a calming sound on a wet day. This tailored method improves the waking experience and fits the user's disposition and the outside climate.
+
+3. Audio Playback for Alarms: The script manages audio playback using the Pygame library. Based on the weather information, it loads the chosen alarm sound and plays the alarm at a specified time. The alarm keeps playing for a specific period,  giving the user enough time to wake up.
+
+4. Light Management: The script manages a relay module-attached external light source connected via the Raspberry Pi. Depending on particular circumstances, such as on rainy days or at specific times like sunset or early dawn, it can switch off or on the lights accordingly. This function can mimic natural daylight to help you wake up gradually.
+
+5. Coffee Maker Automation: The script can operate a coffee maker via a different relay module. It ensures that a freshly prepared cup of coffee is waiting for the user in the morning by automating the coffee maker at a predetermined time. 
+
+
